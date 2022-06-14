@@ -13,7 +13,8 @@ class  App  extends Component {
           <Navbar/>
         
           <Routes>
-            <Route exact path='/' element ={<Index/>}/>
+            <Route exact path='/'  element ={<Index/>}/>
+            <Route path="/react_project" element={<Index/>}/>
             <Route  path='/contact' element ={<Contact/>}/>
           </Routes>
         </BrowserRouter>
