@@ -1,3 +1,36 @@
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+  scroll-behavior: smooth;
+  font-family: 'Cairo', sans-serif;
+
+}
+
+@media (min-width:768px) {
+  .contener{
+      width: 750px;
+  }
+}
+/*midum*/
+@media (min-width:992px) {
+  .contener{
+      width: 970px;
+  }
+}
+/*large*/
+@media (min-width:1200px) {
+  .contener {
+      width:1170px;
+  }
+}
+
+
+
 .App {
   text-align: center;
 }
@@ -35,4 +68,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+.contener{
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.active{
+  color: orange;
 }

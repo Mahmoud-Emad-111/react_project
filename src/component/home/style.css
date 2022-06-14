@@ -1,0 +1,55 @@
+.home{
+    background-image: url('./home-bg.jpg');
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    text-transform: capitalize;
+}
+/* START_ACPTCH_AREA */
+.home .contener .captch{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+.home .captch h2{
+    color: rgb(104, 104, 104);
+    font-size: 49px;
+    text-transform: capitalize;
+    /* margin-bottom: 44px; */
+    padding: 25px;
+    padding-bottom: 7px;
+}
+.captch h3{
+    font-size: 35px;
+    padding: 22px;
+    padding-top: 0;
+    color: #ff9800;
+}
+.captch p{
+    margin-top: -10px;
+    color: rgb(104, 104, 104);
+    line-height: 1.3;
+    margin-bottom: 7px;
+}
+.captch button{
+    padding: 11px;
+    background-color: #ff9800;
+    border: none;
+    color: #fff;
+    min-width: 95px;
+    font-size:15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.captch button:hover{
+    background-color: #e88c03;
+}
+
+/* END_ACPTCH_AREA */
